@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Content Example</title>
+</head>
+<body>
+
+    <p id="myParagraph">Original Content</p>
+    <button onclick="changeContent()">Change Content</button>
+
+    <script>
+        // JavaScript function to change the content of the <p> element
+        function changeContent() {
+            // Get the <p> element by its id
+            var paragraph = document.getElementById("myParagraph");
+
+            // Change the content of the <p> element
+            paragraph.innerHTML = "New Content";
+        }
+    </script>
+
+</body>
+</html>
